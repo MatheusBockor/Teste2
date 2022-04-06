@@ -13,7 +13,7 @@ public class BancoListTest {
 
 	public static void main(String[] args) {
 		EntityManager em = JpaUtil.getEntityManger();
-		//"aaaaa123"
+		//"aaaaa12322"
 		Query query = em.createQuery(" select a from Banco a ",Banco.class);
 		
 		List<Banco> bancos = query.getResultList();
